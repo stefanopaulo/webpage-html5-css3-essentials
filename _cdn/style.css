@@ -704,7 +704,7 @@
         margin-bottom: 10px;
     }
 
-    .main_optin_content form button {
+    .main_optin_content form button[type=submit] {
         margin: 0 auto;
         padding: 6px 12px;
     }
