@@ -716,6 +716,15 @@
         font-size: 0.9em;
         line-height: 2em;
     }
+
+    .main_tutor_social_network {
+        max-width: 80%;
+    }
+
+    .main_tutor_social_network > article {
+        flex-basis: 49%;
+        margin: 20px 0;
+    }
 }
 
 /* 640px */
@@ -747,6 +756,13 @@
     }
 
     .main_course_rating_content_coment > article {
+        flex-basis: 100%;
+    }
+}
+
+/* 580px */
+@media (max-width: 36em) {
+    .main_tutor_social_network > article {
         flex-basis: 100%;
     }
 }
